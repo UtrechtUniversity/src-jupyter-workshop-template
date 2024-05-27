@@ -1,5 +1,10 @@
 # Template repository for Jupyter workshops on Surf Research Cloud
+Zenodo DOI badge
+![Static Badge](https://img.shields.io/badge/Python-black?style=flat-square&logo=python&logoColor=white&labelColor=gray&color=yellow)
+![Static Badge](https://img.shields.io/badge/jupyter-blue?style=flat-square&logo=jupyter&logoColor=white&labelColor=gray&color=orange)
+![Static Badge](https://img.shields.io/badge/MIT%20License%20-blue?style=flat-square)
 
+## Introduction
 This repository is a template for creating a Jupyter workshop set up on the Surf Research Cloud. The repository contains a folder structure to organize the workshop material, a GitHub Actions workflow to automatically compress the workshop material, and an ansible playbook to automatically transfer the workshop material to the digital workspaces on the Surf Research Cloud. An example workshop that uses this template can be found [here](https://github.com/UtrechtUniversity/gis-python-power).
 
 ## Repository folder structure
