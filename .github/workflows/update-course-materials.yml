@@ -1,10 +1,12 @@
 on:
-  pull_request_target:
-    branches: main
+  push:
+    branches:
       - 'main'
     paths:
       - 'workshop_material/**'
   workflow_dispatch:
+permissions:
+  contents: write
     
 jobs:
   build:
@@ -23,7 +25,7 @@ jobs:
           mkdir playbooks/roles/transfer_workshop_material/files/
         fi
         zip -r playbooks/roles/transfer_workshop_material/files/workshop_material.zip workshop_material
-    - uses: actions/upload-artifact@v3
+    - uses: actions/upload-artifact@v4
       with:
         name: workshop_material
         path: playbooks/roles/transfer_workshop_material/files/workshop_material.zip
