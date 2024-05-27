@@ -43,7 +43,9 @@ Follow the instructions [here](https://servicedesk.surf.nl/wiki/display/WIKI/Cre
 - Shared Working Directory
 - AND your newly created component
 
-**IMPORTANT: In Step 6 you need to Overwrite parameter settings** for `requirements_file_repo_url` and `requirements_file_path`. Check the instructions for `Custom Packages` component [here](https://gitlab.com/rsc-surf-nl/plugins/plugin-custom-packages/-/blob/main/README.md) and use the url of your newly created repository for `requirements_file_repo_url` and `environment.yml` for `requirements_file_path`.
+**IMPORTANT: In Step 6 you need to Overwrite several parameter settings**:
+For `requirements_file_repo_url` and `requirements_file_path` (both used by the Custom Packages component). Check the instructions for `Custom Packages` component [here](https://gitlab.com/rsc-surf-nl/plugins/plugin-custom-packages/-/blob/main/README.md) and use the url of your newly created repository for `requirements_file_repo_url` and `environment.yml` for `requirements_file_path`.
+For `paths`	(used by Shared Working Directory)	fill `/scratch`
 
 After creating the catalog item, you can now select the catalog item when creating a workspace in the Surf Research Cloud portal. Be aware that in order to use the environment, the user would need to select the `workshop-kernel` from the kernel dropdown in the Jupyter notebook.
 
