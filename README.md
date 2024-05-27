@@ -1,7 +1,7 @@
 # Template repository for Jupyter workshops on Surf Research Cloud
 
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11202762.svg)](https://doi.org/10.5281/zenodo.11202762)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11352799.svg)](https://doi.org/10.5281/zenodo.11352799)
 [![Static Badge](https://img.shields.io/badge/Python-black?logo=python&logoColor=blue&labelColor=gray&color=yellow)](https://www.python.org/)
 [![Static Badge](https://img.shields.io/badge/jupyter-blue?logo=jupyter&logoColor=white&labelColor=gray&color=orange)](https://jupyter.org/)
 [![Static Badge](https://img.shields.io/badge/MIT%20License%20-blue)](https://github.com/UtrechtUniversity/src-jupyter-workshop-template/blob/main/LICENSE)
