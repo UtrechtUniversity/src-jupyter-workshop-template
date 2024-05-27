@@ -1,6 +1,36 @@
 # Template repository for Jupyter workshops on Surf Research Cloud
 
-This repository is a template for creating a Jupyter workshop on the Surf Research Cloud. The repository contains a folder structure to organize the workshop material, a GitHub Actions workflow to automatically compress the workshop material, and an ansible playbook to automatically transfer the workshop material to the digital workspaces on the Surf Research Cloud. An example workshop that uses this template can be found [here](https://github.com/UtrechtUniversity/gis-python-power).
+This repository is a template for creating a Jupyter workshop set up on the Surf Research Cloud. The repository contains a folder structure to organize the workshop material, a GitHub Actions workflow to automatically compress the workshop material, and an ansible playbook to automatically transfer the workshop material to the digital workspaces on the Surf Research Cloud. An example workshop that uses this template can be found [here](https://github.com/UtrechtUniversity/gis-python-power).
+
+## Repository folder structure
+```python
+|   .gitignore
+|   CITATION.cff
+|   environment.yml
+|   LICENSE
+|   README.md
+|   tree.doc
+|   tree.txt
+|   
++---.github
+|   \---workflows
+|           update-course-materials.yml
+|           
++---playbooks
+|   |   transfer_workshop_material.yml
+|   |   
+|   \---roles
+|       \---transfer_workshop_material
+|           \---tasks
+|                   main.yml
+|                   
+\---workshop_material
+    +---data
+    |       README.md
+    |       
+    \---notebooks
+            Intro_Jupyter.ipynb
+```
 
 ## Steps to create a workshop (<60 minutes)
 
@@ -8,7 +38,7 @@ This repository is a template for creating a Jupyter workshop on the Surf Resear
 2. Add the workshop material to the `workshop-material` folder.
 3. Update the `environment.yml` file with the required packages.
 4. Optionally: Update the `README.md` file with the workshop information.
-5. Create a 'component' and 'catalog item' in the [Surf Research Cloud portal](https://portal.live.surfresearchcloud.nl/). [Instructions below](#creating-a-component-and-catalog-item-in-the-surf-research-cloud-portal).
+5. Create a 'component' and 'catalog item' in the [Surf Research Cloud portal](https://portal.live.surfresearchcloud.nl/), [Instructions below](#creating-a-component-and-catalog-item-in-the-surf-research-cloud-portal).
 
 ## Deployment
 
