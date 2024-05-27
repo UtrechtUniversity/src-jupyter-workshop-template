@@ -2,9 +2,9 @@
 
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11352800.svg)](https://doi.org/10.5281/zenodo.11352800)
-[![Static Badge](https://img.shields.io/badge/Python-black?style=flat-square&logo=python&logoColor=blue&labelColor=gray&color=yellow)](https://www.python.org/)
-[![Static Badge](https://img.shields.io/badge/jupyter-blue?style=flat-square&logo=jupyter&logoColor=white&labelColor=gray&color=orange)](https://jupyter.org/)
-[![Static Badge](https://img.shields.io/badge/MIT%20License%20-blue?style=flat-square)](https://github.com/UtrechtUniversity/src-jupyter-workshop-template/blob/main/LICENSE)
+[![Static Badge](https://img.shields.io/badge/Python-black?logo=python&logoColor=blue&labelColor=gray&color=yellow)](https://www.python.org/)
+[![Static Badge](https://img.shields.io/badge/jupyter-blue?logo=jupyter&logoColor=white&labelColor=gray&color=orange)](https://jupyter.org/)
+[![Static Badge](https://img.shields.io/badge/MIT%20License%20-blue)](https://github.com/UtrechtUniversity/src-jupyter-workshop-template/blob/main/LICENSE)
 
 
 ## Introduction
