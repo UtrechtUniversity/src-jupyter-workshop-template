@@ -8,24 +8,13 @@ apt:
   - ncdu
 
 miniconda:
-  name: geo-kernel
+  name: workshop-kernel
   channels:
   - conda-forge
   dependencies:
-  - python=3.10
-  - numpy>=1.20.0
-  - numba>=0.53
-  - matplotlib>=3.4.0
-  - xarray>=0.17
-  - rasterio>=1.2.0
-  - geopandas>=0.8.0
-  - rioxarray>=0.7.0
-  - earthpy>=0.9.4
-  - pandas
-  - shapely
-  - fiona
-  - contextily
-  - ipympl
+  - python=3.10       # change version if needed
+  - numpy>=1.20.0     # example, remove or change version if needed
+  - matplotlib>=3.4.0 # example, remove or change version if needed
   - ipykernel
   - pip
   - pip:
