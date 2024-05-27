@@ -16,7 +16,12 @@ jobs:
         fetch-depth: 0
     - name: Zip Course material
       run: |
-        rm playbooks/roles/transfer_workshop_material/files/workshop_material.zip
+        FILE=playbooks/roles/transfer_workshop_material/files/workshop_material.zip
+        if test -f "$FILE"; then
+          rm playbooks/roles/transfer_workshop_material/files/workshop_material.zip
+        else
+          mkdir playbooks/roles/transfer_workshop_material/files/
+        fi
         zip -r playbooks/roles/transfer_workshop_material/files/workshop_material.zip workshop_material
     - uses: actions/upload-artifact@v3
       with:
